@@ -12,7 +12,7 @@ public class FbLocator {
 				"C:\\Users\\Lenovo\\eclipse-workspace\\ProjectCalss\\Driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+	
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);
 		
